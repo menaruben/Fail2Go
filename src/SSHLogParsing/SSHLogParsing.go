@@ -1,4 +1,4 @@
-package main
+package SSHLogParsing
 
 import (
 	"bufio"
@@ -39,7 +39,7 @@ func get_failed_login_count(value string, failed_hosts []string) int {
 
 // returns all hosts which failed to login more or euqal to x amount of times
 func Get_bannable_hosts(failed_login_limit int) []string {
-	var path_to_file string = "./TestSSHLog.log"
+	var path_to_file string = "C:/ProgramData/ssh/logs/sshd.log"
 	file, err := os.Open(path_to_file)
 	if err != nil {
 		log.Fatal(fmt.Sprintf("Error reading from %s", path_to_file))

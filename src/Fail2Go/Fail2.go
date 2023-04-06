@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fail2go/SSHLogParsing"
 	"fail2go/winfw"
 	"log"
 	"os"
@@ -18,6 +19,16 @@ func main() {
 	log.SetFlags(log.Ldate | log.Ltime | log.Lmicroseconds)
 
 	// must run as administrator!
-	winfw.Ban_IP("192.168.140.10")
-	winfw.Unban_IP("192.168.140.10")
+	bannable_hosts := SSHLogParsing.Get_bannable_hosts()
+
+	for i := 0; i < len(bannable_hosts); i++ {
+		winfw.Ban_IP(bannable_hosts[i])
+	}
+
+	/* TODO:
+	- add Release date from sshjail
+	- save banned hosts to sql or toml
+	- import banned hosts at start */
+
+	// winfw.Unban_IP("")
 }
