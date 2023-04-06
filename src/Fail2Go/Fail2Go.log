@@ -1,0 +1,8 @@
+2023/04/06 21:33:37.897098 Executing: powershell.exe New-NetFirewallRule -Name 192.168.140.10 -DisplayName 192.168.140.10 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.140.10/32
+2023/04/06 21:33:40.146796 192.168.140.10 banned successfully
+2023/04/06 21:33:40.146796 Executing: powershell.exe Remove-NetFirewallRule -Name 192.168.140.10
+2023/04/06 21:33:42.798417 192.168.140.10 unbanned successfully
+2023/04/06 21:34:05.052808 Executing: powershell.exe New-NetFirewallRule -Name 192.168.140.10 -DisplayName 192.168.140.10 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.140.10/32
+2023/04/06 21:34:07.370475 192.168.140.10 banned successfully
+2023/04/06 21:34:07.370475 Executing: powershell.exe Remove-NetFirewallRule -Name 192.168.140.10
+2023/04/06 21:34:09.894532 192.168.140.10 unbanned successfully
