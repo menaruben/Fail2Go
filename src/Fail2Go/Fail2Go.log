@@ -6,3 +6,8 @@
 2023/04/06 21:34:07.370475 192.168.140.10 banned successfully
 2023/04/06 21:34:07.370475 Executing: powershell.exe Remove-NetFirewallRule -Name 192.168.140.10
 2023/04/06 21:34:09.894532 192.168.140.10 unbanned successfully
+2023/04/07 01:59:36.324409 Error reading from ./TestSSHLog.log
+2023/04/07 02:00:02.854597 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 02:00:05.644712 Error banning 192.168.10.97: exit status 1
+2023/04/07 02:01:14.694699 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 02:01:16.860601 192.168.10.97 banned successfully
