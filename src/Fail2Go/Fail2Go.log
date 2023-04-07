@@ -11,3 +11,48 @@
 2023/04/07 02:00:05.644712 Error banning 192.168.10.97: exit status 1
 2023/04/07 02:01:14.694699 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
 2023/04/07 02:01:16.860601 192.168.10.97 banned successfully
+2023/04/07 18:54:32.247334 Found bannable host: 192.168.10.97
+2023/04/07 18:54:32.248386 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 18:57:18.442773 Found bannable host: 192.168.10.97
+2023/04/07 18:57:18.443840 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 18:58:10.729005 Found bannable host: 192.168.10.97
+2023/04/07 18:58:10.729620 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 18:58:15.017624 Found bannable host: 192.168.10.97
+2023/04/07 18:58:15.018153 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:02:03.342694 Found bannable host: 192.168.10.97
+2023/04/07 19:02:03.343293 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:04:50.970148 Found bannable host: 192.168.10.97
+2023/04/07 19:04:50.971252 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:05:10.161766 Found bannable host: 192.168.10.97
+2023/04/07 19:05:10.162332 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:05:12.229367 Error banning 192.168.10.97: exit status 1
+2023/04/07 19:07:03.402576 Found bannable host: 192.168.10.97
+2023/04/07 19:07:03.403620 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:07:07.017633 Error banning 192.168.10.97: exit status 1
+2023/04/07 19:08:06.934260 Found bannable host: 192.168.10.97
+2023/04/07 19:08:06.934834 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:08:27.701456 Found bannable host: 192.168.10.97
+2023/04/07 19:08:27.702023 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:08:29.883895 Error banning 192.168.10.97: exit status 1
+2023/04/07 19:09:03.591654 Found bannable host: 192.168.10.97
+2023/04/07 19:09:03.592229 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:09:37.393622 Found bannable host: 192.168.10.97
+2023/04/07 19:09:37.394661 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:09:39.852358 Error banning 192.168.10.97: exit status 1
+2023/04/07 19:12:00.023855 Found bannable host: 192.168.10.97
+2023/04/07 19:12:00.024905 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:12:02.294237 Error banning 192.168.10.97: exit status 1
+2023/04/07 19:12:30.598175 Found bannable host: 192.168.10.97
+2023/04/07 19:14:07.332496 Found bannable host: 192.168.10.97
+2023/04/07 19:14:25.065684 Found bannable host: 192.168.10.97
+2023/04/07 19:14:25.066257 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:14:27.572022 192.168.10.97 banned successfully
+2023/04/07 19:15:35.982921 Found bannable host: 192.168.10.97
+2023/04/07 19:15:35.984016 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:16:14.806778 Found bannable host: 192.168.10.97
+2023/04/07 19:16:14.807356 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:16:16.650151 192.168.10.97 banned successfully
+2023/04/07 19:18:16.062834 Found bannable host: 192.168.10.97
+2023/04/07 19:18:16.063905 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
+2023/04/07 19:21:44.076582 Found bannable host: 192.168.10.97
+2023/04/07 19:21:44.077099 Executing: powershell.exe New-NetFirewallRule -Name 192.168.10.97 -DisplayName 192.168.10.97 -Direction Inbound -LocalPort Any -Protocol TCP -Action Block -RemoteAddress 192.168.10.97/32
